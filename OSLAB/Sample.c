@@ -5,7 +5,7 @@
    Date of Creation: 29-08-2022
    Date of Execution: 29-08-2022
 */
-#include <stdio.h>
+#include<stdio.h>
 int main()
 {
  print("Hello")  
