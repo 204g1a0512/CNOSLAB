@@ -41,7 +41,7 @@ top=0;
 }
 display();
 }
-printf("Number of page faults : %d ",pf+frsize);
+printf("Number of the page faults : %d ",pf+frsize);
 //getch();
 }
 void display()
