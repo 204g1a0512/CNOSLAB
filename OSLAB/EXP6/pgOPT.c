@@ -14,7 +14,7 @@ scanf("%d",&n);
 printf("Enter the reference string: ");
 for(i=0;i<n;i++)
 scanf("%d",&page[i]);
-printf("Enter no of frames: ");
+printf("Enter the number of frames: ");
 scanf("%d",&m);
 for(i=0;i<m;i++)
 fr[i]=-1; 
