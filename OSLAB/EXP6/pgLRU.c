@@ -54,7 +54,7 @@ pf++;
 }
 display();
 }
-printf("\n no of page faults :%d",pf+frsize);
+printf("\n Number of page faults :%d",pf+frsize);
 //getch();
 }
 
