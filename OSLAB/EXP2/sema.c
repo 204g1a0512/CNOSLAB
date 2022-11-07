@@ -16,13 +16,12 @@ case 1: if((in+1)%bufsize==out)
 printf("\nBuffer is Full");
 else
 {
-break;
-}
 printf("\nEnter the value: ");
 scanf("%d", &produce);
 buffer[in] = produce;
 in = (in+1)%bufsize;
 break;
+}
 case 2: if(in == out)
 printf("\nBuffer is Empty");
 else
@@ -32,6 +31,4 @@ printf("\nThe consumed value is %d", consume);
 out = (out+1)%bufsize;
 }
 break;
-}
- }
-  }
+} } }
